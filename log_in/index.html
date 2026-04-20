@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/log_in/style.css">
+    </head>
+    <body>
+        <div class="top_panel">
+            <button class="back_button" onclick="window.history.back()">Go back</button>
+        </div>
+        <h1>Log in</h1>
+        <form action="">
+            <div class="form_div">
+                <label for="username">*Username or Email:</label> 
+                <input type="text" placeholder="Enter your username or email" id="username" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_div">
+                <label for="password">*Password</label>
+                <input type="password" placeholder="Enter your password" id="password" required>
+                <p class="error"></p>
+            </div>
+            <div class="">
+                <input type="button" value="Log in" id="submitBtn">
+            </div>
+        </form>
+    </body>
+    
+    <script src="/log_in/script.js"></script>
+</html>

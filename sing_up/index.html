@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/sing_up/style.css">
+    </head>
+    <body>
+        <div class="top_panel">
+            <button class="back_button" onclick="window.history.back()">Go back</button>
+        </div>
+        <h1>Sign up</h1>
+        <form action="">
+            <div class="form_div">
+                <label for="username">*Username:</label> 
+                <input type="text" placeholder="Enter your username" id = "username" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_div">
+                <label for="name">*Name:</label> 
+                <input type="text" placeholder="Enter your name" id = "name" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_div">
+                <label for="surname">*Surname:</label>
+                <input type="text" placeholder="Enter your surname" id = "surname" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_div">
+                <label for="email">*E-mail:</label>
+                <input type="text" placeholder="Enter your email" id = "email" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_div">
+                <label for="password">*Password</label>
+                <input type="password" placeholder="Enter your password" id = "password" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_div">
+                <label for="rep_password">*Repeat your password</label>
+                <input type="password" placeholder="Enter your password" id = "rep_password" required>
+                <p class="error"></p>
+            </div>
+            <div class="form_box">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">*I have read the regulations and accept them</label>
+                <p class="error"></p>
+            </div>
+            <div class="">
+                <input type="button" value="Enter" id="submitBtn">
+            </div>
+        </form>
+    </body>
+    
+    <script src="/sing_up/script.js"></script>
+</html>

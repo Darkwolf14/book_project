@@ -1,0 +1,16 @@
+{
+  "short_name": "weather_app",
+  "theme_color": "#00ff41",
+  "background_color": "#0a0e27",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/pwa/",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

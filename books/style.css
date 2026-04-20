@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.top_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.top_panel input {
+  padding: 8px 12px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.top_panel input:focus {
+  border-color: #007BFF;
+}
+
+.auth {
+  display: flex;
+  gap: 15px;
+}
+
+.auth a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: 500;
+}
+
+.auth a:hover {
+  text-decoration: underline;
+}
+
+.books {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.book {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  align-items: center;
+}
+
+.book img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.info h3 {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #666;
+}

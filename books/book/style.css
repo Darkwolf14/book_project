@@ -1,0 +1,118 @@
+.book_detail_container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.book_detail_content {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.book_detail_cover {
+    flex-shrink: 0;
+}
+
+.book_detail_cover img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.book_detail_info {
+    flex-grow: 1;
+}
+
+.book_detail_info h1 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.book_detail_info p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+.opinions_section {
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+.opinion_form {
+    margin-bottom: 30px;
+}
+
+.opinion_form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.opinion_form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.opinion_form button:hover {
+    background-color: #0056b3;
+}
+
+.opinion_item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #007BFF;
+    border-radius: 4px;
+}
+
+.opinion_text {
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.opinion_date {
+    font-size: 12px;
+    color: #999;
+}
+
+.back_button {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.back_button:hover {
+    background-color: #545b62;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
