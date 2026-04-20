@@ -5,7 +5,7 @@
   "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "/book_project/books",
+  "start_url": "/books",
   "icons": [
     {
       "src": "img/icon.png",
