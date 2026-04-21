@@ -1,11 +1,12 @@
 {
+  "name": "book_project",
   "short_name": "book super app",
   "theme_color": "#00ff41",
   "background_color": "#0a0e27",
   "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/books",
+  "scope": "/books",
+  "start_url": "/books/",
   "icons": [
     {
       "src": "img/icon.png",
