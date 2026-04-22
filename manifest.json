@@ -5,8 +5,8 @@
   "background_color": "#0a0e27",
   "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "/books",
-  "start_url": "/books/",
+  "scope": "/book_project/",
+  "start_url": "/book_project/books",
   "icons": [
     {
       "src": "img/icon.png",
