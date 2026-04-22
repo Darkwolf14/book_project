@@ -106,6 +106,14 @@ const server = http.createServer((req, res) => {
         res.end()
     }
 
+    else if(req.usr === "/manifest.json")
+    {
+        console.log("Sending manifest.json file")
+        res.writeHead(200, {"Content-Type" : "application/javascript"})
+        res.write(fs.readFileSync("log_in/script.js"))
+        res.end()
+    }
+
     else 
     {
         console.log("Error 404: " + req.url)
